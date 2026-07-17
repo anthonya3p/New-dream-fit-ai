@@ -1,21 +1,16 @@
-# DreamFit AI — Pack GitHub final
+# DreamFit AI — version corrigée
 
-Ce dossier est prêt à être déposé à la racine du dépôt GitHub.
-
-## Installation
+## Installation GitHub
 1. Décompresser le ZIP.
-2. Ouvrir le dossier `DreamFit_AI_GitHub_Final`.
-3. Sélectionner tout son contenu.
-4. Remplacer les fichiers présents à la racine du dépôt GitHub.
-5. Vérifier que `index.html` est directement à la racine.
-6. Relancer le déploiement Vercel.
+2. Ouvrir le dossier `DreamFit_AI_GitHub_Corrige`.
+3. Envoyer **tout son contenu** à la racine du dépôt GitHub.
+4. Remplacer les anciens fichiers.
+5. Attendre le redéploiement Vercel.
 
-## Illustrations musculaires
-- `assets/muscles/push.svg` : pectoraux, épaules, triceps.
-- `assets/muscles/pull.svg` : dos, biceps, arrière d’épaules.
-- `assets/muscles/legs.svg` : quadriceps, ischio-jambiers, fessiers, mollets.
+## Important sur iPhone
+L'ancienne version peut rester en cache.
+- Supprimer l'ancienne icône DreamFit AI de l'écran d'accueil.
+- Dans Réglages > Safari > Avancé > Données de sites, supprimer les données du domaine Vercel concerné, ou ouvrir le site en navigation privée une première fois.
+- Revenir sur Safari et utiliser Partager > Sur l'écran d'accueil.
 
-Les fichiers PNG associés servent de sources haute définition et de secours.
-
-## Après mise à jour sur iPhone
-Si l’ancienne illustration reste visible, supprimer DreamFit AI de l’écran d’accueil, ouvrir de nouveau le site dans Safari, puis utiliser « Sur l’écran d’accueil ». Le cache hors ligne a été versionné pour forcer la mise à jour.
+Cette version démarre sans données de démonstration. Les objectifs restent configurés, mais les repas, calories, poids et séances sont vierges.
