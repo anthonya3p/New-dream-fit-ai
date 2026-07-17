@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#05070c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="DreamFit AI" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>DreamFit AI</title>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow" id="todayLabel">vendredi 17 juillet</p>
+        <h1>DreamFit AI</h1>
+      </div>
+      <button class="avatar" aria-label="Profil">AG</button>
+    </header>
+
+    <main id="app" class="app-content" aria-live="polite"></main>
+
+    <nav class="bottom-nav" aria-label="Navigation principale">
+      <button class="nav-item active" data-route="home"><span>⌂</span><small>Accueil</small></button>
+      <button class="nav-item" data-route="nutrition"><span>◉</span><small>Nutrition</small></button>
+      <button class="nav-item" data-route="workout"><span>✚</span><small>Sport</small></button>
+      <button class="nav-item" data-route="progress"><span>⌁</span><small>Progrès</small></button>
+      <button class="nav-item" data-route="more"><span>•••</span><small>Plus</small></button>
+    </nav>
+  </div>
+
+  <dialog id="modal" class="modal">
+    <form method="dialog" class="modal-card" id="modalContent"></form>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
